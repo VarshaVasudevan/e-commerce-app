@@ -7,6 +7,8 @@ const addressSchema = new mongoose.Schema({
         required:true
 
     },
+
+    fullName: { type: String, required: true },  
     addressLine1:{
         type:String,
         required:true
